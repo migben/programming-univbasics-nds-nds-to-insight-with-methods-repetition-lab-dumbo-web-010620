@@ -43,6 +43,10 @@ def list_of_directors(src)
   # Write this implementation
   director_list = []
   idx = 0
+  
+  while idx < src.size
+    
+  end
 end
 
 def total_gross(source)
