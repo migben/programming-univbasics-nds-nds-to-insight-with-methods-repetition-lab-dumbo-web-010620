@@ -64,7 +64,7 @@ def total_gross(src)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-  total = 0
+  grand_total = 0
   idx = 0
   
   directors_totals(src) # => hash={dir1: total_gross, dir2: total_gross,...., dirNth: total_gross}  
