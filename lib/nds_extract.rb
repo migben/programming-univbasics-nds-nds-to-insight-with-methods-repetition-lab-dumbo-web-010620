@@ -49,6 +49,7 @@ def list_of_directors(src)
     
     idx += 1
   end
+  director_list
 end
 
 def total_gross(source)
