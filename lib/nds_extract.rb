@@ -41,6 +41,7 @@ end
 
 def list_of_directors(src)
   # Write this implementation
+  director_list = []
 end
 
 def total_gross(source)
