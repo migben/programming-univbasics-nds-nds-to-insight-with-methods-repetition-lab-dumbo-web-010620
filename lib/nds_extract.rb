@@ -2,13 +2,17 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 # Enjoyed the Nth-Order Method example on the Intro. It's a popular reference that's used quite often in the course of Harvard CS50. 
 
-def directors_totals(source)
+def directors_totals(src)
+  
   result = {}
   director_index = 0
-  while director_index < source.size do
+  
+  while director_index < source.size
+    
     director = source[director_index]
     result[director[:name]] = gross_for_director(director)
     director_index += 1
+    
   end
   result
 end
