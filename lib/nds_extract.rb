@@ -14,6 +14,7 @@ def directors_totals(src)
     director_index += 1
     
   end
+  
   result
 end
 
