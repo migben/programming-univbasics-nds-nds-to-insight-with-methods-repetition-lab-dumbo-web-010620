@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 # Enjoyed the Nth-Order Method example on the Intro. It's a popular reference that's used quite often in the course of Harvard CS50. 
+# Unable to use the multi line comment format =begin =end 
 
 def directors_totals(src)
   
