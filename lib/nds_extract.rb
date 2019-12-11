@@ -67,12 +67,12 @@ def total_gross(src)
   grand_total = 0
   idx = 0
   
-  directors_totals(src) # => hash={dir1: total_gross, dir2: total_gross,...., dirNth: total_gross}  
+  dir_totals= directors_totals(src) # => hash={dir1: total_gross, dir2: total_gross,...., dirNth: total_gross}  
   
   director_names = list_of_directors(src) # [director1, director2,.....,directorN]
   
   while idx < src.size
-    grand_total +=
+    grand_total +=  dir_totals[director_names[idx]]
     
     idx  +=1
   end
