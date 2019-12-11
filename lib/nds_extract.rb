@@ -67,6 +67,8 @@ def total_gross(src)
   total = 0
   idx = 0
   
+  directors_totals(src)  
+  
   director_names = list_of_directors(src) # [director1, director2,.....,directorN]
   
   while idx < src.size
