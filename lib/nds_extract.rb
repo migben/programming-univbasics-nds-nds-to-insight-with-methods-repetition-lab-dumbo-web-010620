@@ -45,7 +45,7 @@ def list_of_directors(src)
   idx = 0
   
   while idx < src.size
-    
+    director_list << src[idx][:name]
   end
 end
 
