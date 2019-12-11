@@ -54,7 +54,7 @@ def list_of_directors(src)
   director_list
 end
 
-def total_gross(source)
+def total_gross(src)
   # Write this implementation
   #
   # Should use methods:
