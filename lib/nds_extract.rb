@@ -7,7 +7,7 @@ def directors_totals(src)
   result = {}
   director_index = 0
   
-  while director_index < source.size
+  while director_index < src.size
     
     director = source[director_index]
     result[director[:name]] = gross_for_director(director)
