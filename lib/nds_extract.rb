@@ -67,7 +67,7 @@ def total_gross(src)
   total = 0
   idx = 0
   
-  directors_totals(src)  
+  directors_totals(src) # => hash={dir1: total_gross, dir2: total_gross,...., dirNth: total_gross}  
   
   director_names = list_of_directors(src) # [director1, director2,.....,directorN]
   
