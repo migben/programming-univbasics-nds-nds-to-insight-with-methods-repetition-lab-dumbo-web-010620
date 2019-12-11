@@ -65,7 +65,7 @@ def total_gross(src)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  grand_total, idx = 0, 0
+  grand_total, idx = 0, 0 # the same as assigning grand_total and idx on their own line.
   
   dir_totals = directors_totals(src) # => hash={dir1: total_gross, dir2: total_gross,...., dirNth: total_gross}  
   
